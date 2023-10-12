@@ -1,0 +1,15 @@
+GET http://localhost:3001/users/64a9f4df0985062d9c5652bb
+
+###
+
+GET http://localhost:5000/subscribers/3
+
+### 
+
+POST http://localhost:3001/auth/register
+Content-Type : application/json
+
+{
+    "userId": "5",
+    "courseType": "premiumsasnas"
+}
